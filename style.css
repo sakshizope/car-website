@@ -1,0 +1,301 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    overflow: auto;
+    background-color: #000000;
+    color: #F1f1f2;
+}
+
+a{
+    text-decoration: none;
+    transition: all 0.3s ease-in;
+}
+
+.container{
+    margin: 1% auto 1% auto;
+}
+
+.right-nav-data{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 5%;
+    gap: 1.5rem;
+}
+
+.right-nav-data a{
+    font-size: 1.1rem;
+    color: #FFF;
+}
+
+.right-nav-data a i{
+    border: 1px solid #FFF;
+    padding: 3px 4px;
+    font-size: 0.7rem;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navbar .logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.navbar .logo img{
+    width: 90px;
+}
+
+.navbar .logo .logo-title{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.navbar .nav-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 0 20px;
+}
+
+.nav-link a{
+    font-size: 1.1rem;
+    color: #FFF;
+    font-weight: 600;
+}
+
+.nav-link a:hover{
+    color: #047db5;
+}
+
+.header{
+    width: 100%;
+    height: 82vh;
+    background-image: url("assets/index.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+}
+
+.header .header-content{
+    position: relative;
+    top: 10%;
+    left: 5%;
+}
+
+.header-content h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 2px #888;
+    padding-bottom: 2rem;
+}
+
+.header-content .btn{
+    width: 10rem;
+    height: 2.2rem;
+    background-color: #333;
+    color: #fff;
+    font-size: 1.09rem;
+    border: none;
+    outline: none;
+}
+
+.search-input{
+    width: 100%;
+    height: 80px;
+    background-color: #111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-input input[type=text]{
+    width: 85%;
+    height: 3rem;
+    margin: 10px 0;
+
+}
+
+input::placeholder{
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.info{
+    width: 45%;
+    height: auto;
+    text-align: center;
+    position: relative;
+    top: 30%;
+    left: 30%;
+}
+
+.info h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;    
+    font-size: 2rem;
+    padding: 40px 0 10px 0;
+}
+
+.info p{
+    width: 90%;
+    font-size: 1rem;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+.info p .web-link{
+    color: #329fc9;
+}
+
+.info p .web-link:hover{
+    text-decoration: underline;
+}
+
+.info .primary-btn{
+    margin-top: 10px;
+    padding: 12px 26px;
+    background-color: #329fc9;
+    color: #f9f9f9;
+    border: none;
+    outline: none;
+    opacity: 0.8;
+    font-size: 1.1rem;
+}
+
+.primary-btn:hover{
+    opacity: 1;
+    color: #fff;
+}
+
+.img-container{
+    position: relative;
+    top: 20%;
+}
+
+.img-gallery{
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;    
+}
+
+.img-gallery img{
+    width: 300px;
+}
+
+.img-gallery img:hover{
+    border-bottom: 8px solid #329fc9;
+}
+
+.option{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.option a{
+    color: #FFF;
+    padding: 0 10px;
+}
+
+.option a:hover{
+    color: #329fc9;
+    border-bottom: 1px solid #047db5;
+}
+
+.card img{
+    width: 420px;
+    height: 250px;
+}
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 0.4rem;
+}
+
+.show-btn{
+    background-color: #111;
+    color: #f4f4f4;
+    text-align: center;
+    border: 1px solid #222;
+    padding: 8px 18px;
+    position: relative;
+    left: 45%;
+    margin-top: 3rem;
+}
+
+.show-btn:hover{
+    color: #fff;
+}
+
+.details{
+    margin-top: 5rem;
+}
+
+.para-title{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 5rem;
+    margin: 2rem 3%;
+}
+
+.para-title p{
+    font-size: 1rem;
+}
+
+.para{
+    padding: 8px 3%;
+}
+
+.para p{
+    padding-bottom: 0.7rem;
+}
+
+.f-container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.footer-box h2{
+    border-bottom: 2px solid #ccc;
+}
+
+.footer-box a{
+    color: #f4f4f4;
+    display: block;
+    padding: 3px 0;
+    font-size: 0.9rem;
+}
+
+.footer-box a:hover{
+    color: #329fc9;
+}
+
+
+
+@media screen and (max-width: 450px){
+    .f-container{
+        flex-direction: column;
+    }
+}
